@@ -106,7 +106,7 @@ const Swipeout = createReactClass({
     onClose: PropTypes.func,
     right: PropTypes.array,
     scroll: PropTypes.func,
-    style: (ViewPropTypes || View.propTypes).style,
+    style: ViewPropTypes.style,
     sensitivity: PropTypes.number,
     buttonWidth: PropTypes.number,
     disabled: PropTypes.bool,
