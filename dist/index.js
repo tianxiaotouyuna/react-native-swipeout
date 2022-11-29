@@ -24,6 +24,8 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = require('prop-types');
 
+var _viewPropTypes = require('deprecated-react-native-prop-types');
+
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _createReactClass = require('create-react-class');
@@ -123,7 +125,7 @@ var Swipeout = (0, _createReactClass2.default)({
     onClose: _propTypes2.default.func,
     right: _propTypes2.default.array,
     scroll: _propTypes2.default.func,
-    style: _reactNative.View.ViewPropTypes,
+    style: _viewPropTypes.ViewPropTypes.style,
     sensitivity: _propTypes2.default.number,
     buttonWidth: _propTypes2.default.number,
     disabled: _propTypes2.default.bool

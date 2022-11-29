@@ -6,6 +6,7 @@ import React, {
   Component,
 } from 'react';
 import PropTypes from 'prop-types';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 import createReactClass from 'create-react-class';
 
 import {
@@ -14,7 +15,6 @@ import {
   StyleSheet,
   Text,
   View,
-  ViewPropTypes,
 } from 'react-native';
 
 const SwipeoutBtn = createReactClass({
@@ -106,7 +106,7 @@ const Swipeout = createReactClass({
     onClose: PropTypes.func,
     right: PropTypes.array,
     scroll: PropTypes.func,
-    style: View.ViewPropTypes,
+    style: ViewPropTypes.style,
     sensitivity: PropTypes.number,
     buttonWidth: PropTypes.number,
     disabled: PropTypes.bool,
